@@ -97,10 +97,10 @@
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
   // RAMPS V1.4 BOARD
-  // #define MOTHERBOARD BOARD_RAMPS_14_EFB
+  #define MOTHERBOARD BOARD_RAMPS_14_EFB
 
   // GEEETECH 2560 BOARD
-  #define MOTHERBOARD BOARD_GT2560_REV_A_PLUS
+  // #define MOTHERBOARD BOARD_GT2560_REV_A_PLUS
 #endif
 
 /**
@@ -877,7 +877,7 @@
 //#define J_DRIVER_TYPE  A4988
 //#define K_DRIVER_TYPE  A4988
 #define E0_DRIVER_TYPE A4988
-//#define E1_DRIVER_TYPE A4988
+#define E1_DRIVER_TYPE A4988
 //#define E2_DRIVER_TYPE A4988
 //#define E3_DRIVER_TYPE A4988
 //#define E4_DRIVER_TYPE A4988
